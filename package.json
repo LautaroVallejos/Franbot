@@ -1,0 +1,15 @@
+{
+  "name": "franbot-discord",
+  "version": "1.0.0",
+  "description": "Bot para el grupo de discord de 6 1era Programacion 2021",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lautaro Vallejos",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
