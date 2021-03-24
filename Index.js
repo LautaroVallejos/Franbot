@@ -31,7 +31,7 @@ client.on('message', message => {
     //Si el mensaje es !cum
     if(message.content.toLocaleLowerCase() === "!cum"){
         //Se imprime el mensaje en el chat
-        message.reply(`Yamete Kudasai ${message.author}-sama`)
+        message.reply(`Onegai yamete kudasai ${message.author}-sama`)
         //Se crea una constante que almacena la imagen
         const attachment = new discord.MessageAttachment('https://cdn.discordapp.com/attachments/823831377194516480/823832066499805187/descarga_2.jpg')
         //Se envia la imagen
@@ -39,4 +39,10 @@ client.on('message', message => {
     }
 })
 
-client.login('ODIzNzg5ODAzNTg1NTM2MDAw.YFl8Cg.8wwmpMNDojmVX4wR_el4vdiAGUk')
+client.on('message', message => {
+    if (message.content === "!pene"){
+        message.reply("Tu pene es de 5.7cm")
+    }
+})
+
+client.login('ODIzNzg5ODAzNTg1NTM2MDAw.YFl8Cg.qSd2xDrlZYad0CB3d9CX74RTtNU')
